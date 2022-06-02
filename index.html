@@ -1,1 +1,121 @@
-<p>hello</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="yingguang.css">
+</head>
+<body>
+    <div class="box">
+        <div class="content">
+            <h1>6666666</h1>
+            <p>坐着高铁看中国：百年京张线 见证复兴新征程我国提前完
+                成一亿人口落户目标 改革进展顺利买买买！海南离岛免税
+                购物火爆引境外消费回流世贸：中国在进出口领域为全球作
+                出积极贡献走向星辰大海！中国空间站建造任务全力备战返
+                程客流明显增加 7日预计发送旅客1200万人次
+                青岛9人检测阳性 均与胸科医院高度关联央视发表海峡时</p>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+   /* justify-content: center;
+    align-items: center;*/
+    min-height:100vh;
+    background: #060c21;
+    font-family: Acanthus;
+}
+/*实现蓝绿色的*/
+.box{
+    margin: 50px;
+
+    position:relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #060c21;
+}
+.box:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index:-1;
+
+}
+.box:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index:-1;
+    filter:blur(40px);
+
+}
+.box:before,
+.box:after{
+    background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+}
+.content{
+    padding:20px;
+    box-sizing:border-box;
+    color:#fff;
+}
+/*实现紫粉色的*/
+.box2{
+    margin: 50px;
+
+    position:relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #060c21;
+}
+.box2:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index:-1;
+
+}
+.box2:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index:-1;
+    filter:blur(40px);
+
+}
+.box2:before,
+.box2:after{
+    background: linear-gradient(235deg,#e37bb2,#060c21,#a70dc6);
+}
+.content{
+    padding:20px;
+    box-sizing:border-box;
+    color:#fff;
+}
+</style>
