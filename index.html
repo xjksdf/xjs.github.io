@@ -1,116 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="yingguang.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Xiao LOVE Zhou</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css" />
+	<link rel="stylesheet" type="text/css" href="css/slideshow_layouts.css" />
+	<script>document.documentElement.className = 'js';</script>
 </head>
 <body>
-    <div class="box">
-        <div class="content">
-            <h1>xiaoxiaoaizhouzhou</h1>
-            <p>这里是潇潇使用github搭建的个人免费网站，不限大小，不限流量，非常的好用！！！</p>
-        </div>
-    </div>
+	<svg class="hidden">
+		<defs>
+			<symbol id="icon-arrow" viewBox="0 0 24 24">
+				<title>arrow</title>
+				<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+			</symbol>
+			<symbol id="icon-drop" viewBox="0 0 24 24">
+				<title>drop</title>
+				<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
+			</symbol>
+			<symbol id="icon-prev" viewBox="0 0 100 50">
+				<title>prev</title>
+				<polygon points="5.4,25 18.7,38.2 22.6,34.2 16.2,27.8 94.6,27.8 94.6,22.2 16.2,22.2 22.6,15.8 18.7,11.8"/>
+			</symbol>
+			<symbol id="icon-next" viewBox="0 0 100 50">
+				<title>next</title>
+				<polygon points="81.3,11.8 77.4,15.8 83.8,22.2 5.4,22.2 5.4,27.8 83.8,27.8 77.4,34.2 81.3,38.2 94.6,25 "/>
+			</symbol>
+			<symbol id="icon-octicon" viewBox="0 0 24 24">
+				<title>octicon</title>
+				<path d="M12,2.2C6.4,2.2,1.9,6.7,1.9,12.2c0,4.4,2.9,8.2,6.9,9.6c0.5,0.1,0.7-0.2,0.7-0.5c0-0.2,0-0.9,0-1.7c-2.8,0.6-3.4-1.4-3.4-1.4C5.6,17.1,5,16.8,5,16.8C4.1,16.2,5,16.2,5,16.2c1,0.1,1.5,1,1.5,1c0.9,1.5,2.4,1.1,2.9,0.8c0.1-0.7,0.4-1.1,0.6-1.3c-2.2-0.3-4.6-1.1-4.6-5c0-1.1,0.4-2,1-2.7C6.5,8.8,6.2,7.7,6.7,6.4c0,0,0.8-0.3,2.8,1C10.3,7.2,11.1,7.1,12,7c0.9,0,1.7,0.1,2.5,0.3c1.9-1.3,2.8-1,2.8-1c0.5,1.4,0.2,2.4,0.1,2.7c0.6,0.7,1,1.6,1,2.7c0,3.9-2.4,4.7-4.6,5c0.4,0.3,0.7,0.9,0.7,1.9c0,1.3,0,2.4,0,2.8c0,0.3,0.2,0.6,0.7,0.5c4-1.3,6.9-5.1,6.9-9.6C22.1,6.7,17.6,2.2,12,2.2z" />
+			</symbol>
+			<!-- From Karen Menezes: https://www.smashingmagazine.com/2015/05/creating-responsive-shapes-with-clip-path/ -->
+			<clipPath id="polygon-clip-rhomboid" clipPathUnits="objectBoundingBox">
+				<polygon points="0 1, 0.3 0, 1 0, 0.7 1" />
+			</clipPath>
+		</defs>
+	</svg>
+	<main>
+		<header class="codrops-header">
+		
+			<h1 class="codrops-header__title">遇见最美丽的风景</h1>
+			<p class="codrops-header__tagline">好的爱情，战得胜时间，抵得住流年，经得起离别，受得住想念。</p>
+			<p class="ie-message">我的青春乏善可陈， <a href="http://caniuse.com/#search=clip-path">自始至终，只你一人。</a>.</p>
+	
+		</header>
+		<div class="slideshow" tabindex="0">
+			<div class="slide slide--layout-1" data-layout="layout1">
+				<div class="slide-imgwrap">
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/1.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/2.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/3.jpg);"></div></div>
+				</div>
+				<div class="slide__title">
+					<h3 class="slide__title-main">《往后余生》</h3>
+					<p class="slide__title-sub">往后余生，风雪是你，平淡是你，清贫是你，荣华是你,心底温柔是你,目光所至， <a href="#">也是你</a>。</p>
+				</div>
+			</div><!-- /slide -->
+			<div class="slide slide--layout-2" data-layout="layout2">
+				<div class="slide-imgwrap">
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/6.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/5.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/6.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/7.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/9.jpg);"><h4 class="slide__img-caption">Today is someday</h4></div></div>
+				</div>
+				<div class="slide__title">
+					<h3 class="slide__title-main">《你若安好 便是晴天》</h3>
+					<p class="slide__title-sub">停留是刹那，转身即天涯。</p>
+				</div>
+			</div><!-- /slide -->
+			<div class="slide slide--layout-3" data-layout="layout3">
+				<div class="slide-imgwrap">
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/9.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/10.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/11.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/15.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/13.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/14.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/12.jpg);"></div></div>
+				</div>
+				<div class="slide__title">
+					<h3 class="slide__title-main">几米</h3>
+					<p class="slide__title-sub">在最深的绝望里，遇见最美丽的风景。</p>
+				</div>
+			</div><!-- /slide -->
+			<div class="slide slide--layout-4" data-layout="layout4">
+				<div class="slide-imgwrap">
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/10.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/8.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/11.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/13.jpg);"></div></div>
+				</div>
+				<div class="slide__title">
+					<h3 class="slide__title-main">《说给自己听》</h3>
+					<p class="slide__title-sub">如果有来生，要做一只鸟，飞越永恒，没有迷途的苦恼。东方有火红的希望，南方有温暖的巢床，向西逐退残阳，向北唤醒芬芳。如果有来生，希望每次相遇，都能化为永恒。</p>
+				</div>
+			</div><!-- /slide -->
+			<div class="slide slide--layout-5" data-layout="layout5">
+				<div class="slide-imgwrap">
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/1.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/2.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/3.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/4.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/5.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/6.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/7.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/8.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/9.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/10.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/11.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/12.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/13.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/14.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/15.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/16.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/17.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/small/18.jpg);"></div></div>
+				</div>
+				<div class="slide__title">
+					<h3 class="slide__title-main">《双城记》</h3>
+					<p class="slide__title-sub"><a href="#">To the world you may be one person, but to one person you may be the world .</a>
+对于世界而言，你是一个人；但是对于某个人，你是他的整个世界．</p>
+				</div>
+			</div><!-- /slide -->
+			<div class="slide slide--layout-6" data-layout="layout6">
+				<div class="slide-imgwrap">
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/14.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/11.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/3.jpg);"></div></div>
+				</div>
+				<div class="slide__title">
+					<h3 class="slide__title-main">《裂锦》</h3>
+					<p class="slide__title-sub">深夜你突然醒来，你的手慢慢抚过我的脸颊，黑暗里你的眼睛闪过明亮的光泽。
+时光凝驻，这一刻的爱情情深似海，而人生，注定寂寞如雪。</p>
+				</div>
+			</div><!-- /slide -->
+			<div class="slide slide--layout-7" data-layout="layout7">
+				<div class="slide-imgwrap">
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/16.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/1.jpg);"></div></div>
+					<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img/4.jpg);"></div></div>
+				</div>
+				<div class="slide__title">
+					<h3 class="slide__title-main">《未见萤火虫》</h3>
+					<p class="slide__title-sub">我相信这世界上，有些人有些事有些爱，在见到的第一次，就注定要羁绊一生，就注定像一棵树一样，生长在心里，生生世世。</p>
+				</div>
+			</div><!-- /slide -->
+			<nav class="slideshow__nav slideshow__nav--arrows">
+				<button id="prev-slide" class="btn btn--arrow" aria-label="Previous slide"><svg class="icon icon--prev"><use xlink:href="#icon-prev"></use></svg></button>
+				<button id="next-slide" class="btn btn--arrow" aria-label="Next slide"><svg class="icon icon--next"><use xlink:href="#icon-next"></use></svg></button>
+			</nav>
+		</div><!-- /slideshow -->
+
+		
+	</main>
+	
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/anime.min.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+	(function() {
+		var slideshow = new MLSlideshow(document.querySelector('.slideshow'));
+
+		document.querySelector('#next-slide').addEventListener('click', function() {
+			slideshow.next();
+		});
+
+		document.querySelector('#prev-slide').addEventListener('click', function() {
+			slideshow.prev();
+		});
+	})();
+	</script>
 </body>
 </html>
-<style>
-body{
-    margin:0;
-    padding:0;
-    display: flex;
-   /* justify-content: center;
-    align-items: center;*/
-    min-height:100vh;
-    background: #060c21;
-    font-family: Acanthus;
-}
-/*实现蓝绿色的*/
-.box{
-    margin: 50px;
-
-    position:relative;
-    width: 300px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #060c21;
-}
-.box:before {
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: #fff;
-    z-index:-1;
-
-}
-.box:after {
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: #fff;
-    z-index:-1;
-    filter:blur(40px);
-
-}
-.box:before,
-.box:after{
-    background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
-}
-.content{
-    padding:20px;
-    box-sizing:border-box;
-    color:#fff;
-}
-/*实现紫粉色的*/
-.box2{
-    margin: 50px;
-
-    position:relative;
-    width: 300px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #060c21;
-}
-.box2:before {
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: #fff;
-    z-index:-1;
-
-}
-.box2:after {
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: #fff;
-    z-index:-1;
-    filter:blur(40px);
-
-}
-.box2:before,
-.box2:after{
-    background: linear-gradient(235deg,#e37bb2,#060c21,#a70dc6);
-}
-.content{
-    padding:20px;
-    box-sizing:border-box;
-    color:#fff;
-}
-</style>
